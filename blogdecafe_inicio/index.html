@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogdeCafe</title>
+    <meta name="description"  content="pagina web de blog de cafe">
+
+    <!--Prefetch-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!--Preload-->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+    crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css">
+     <link rel="stylesheet" href="css/style.css">
+
+     <link rel="preload" href="img/blog1.jpg" as="image">
+     
+</head>
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Blog <span class="logo__bold">De Café</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="Cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="header__texto">
+          <h2 class="no-margin">Blog de cafe con consejos y cursos</h2>
+        <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos </p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+           
+            <article class="entrada">
+                <div class="entrada__imagen">
+
+                    <picture>
+                        <source srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de grano de Cafe</h4>
+                    <p>Hay una amplia variedad de granos de café, cada uno con características únicas de sabor, aroma y crecimiento. Los dos tipos principales de granos de café son el Arábica y el Robusta. Aquí tienes más detalles sobre estos dos tipos y otros subtipos:
+
+                        Arábica (Coffea arabica): Los granos de café arábica son conocidos por su sabor suave y aromático. Tienden a tener menos cafeína que los granos de Robusta y se consideran de mayor calidad en términos de sabor. Los cafés arábica suelen tener una acidez más pronunciada y matices de sabor más complejos.
+                        
+                        Robusta (Coffea canephora): Los granos de café Robusta tienen un sabor más fuerte y amargo en comparación con los arábica. También tienen un contenido de cafeína más alto. Suelen utilizarse en mezclas de café espresso debido a su crema más densa y su capacidad para resistir temperaturas más altas.
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+
+                    <picture>
+                        <source srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">3 Reliciosas Recetas de Cafe </h4>
+                    <p>
+                        
+                      <p>
+                        Café Latte de Vainilla
+                        Ingredientes:
+                        
+                        Café espresso
+                        Leche
+                        Jarabe de vainilla
+                        Crema batida (opcional)</p>  
+                        <p>Mocha Frappé
+                            Ingredientes:
+                            
+                            Café fuerte enfriado
+                            Leche
+                            Cacao en polvo
+                            Azúcar
+                            Hielo
+                            Crema batida y virutas de chocolate</p>
+                            <p>Café Affogato
+                                Ingredientes:
+                                
+                                Café espresso
+                                Helado de vainilla
+                                Chocolate rallado o cacao en polvo</p>
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+
+                        <source srcset="img/blog3.webp" type="image/webp">
+                    <img loading="lazy" src="img/blog3.jpg" alt="imagen blog">
+
+                    </picture>
+
+                </div>
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Beneficios del Cafe</h4>
+                    <p>Es importante recordar que los efectos pueden variar según la persona y la cantidad de café consumida. Además, es fundamental consumirlo con moderación, ya que el exceso de cafeína puede llevar a efectos secundarios como nerviosismo, insomnio y aumento del ritmo cardíaco. Siempre es recomendable consultar a un profesional de la salud si tienes preocupaciones específicas sobre el consumo de café en relación con tu salud.
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Leer Entrada</a>
+                </div>
+            </article>
+           
+
+        </main>
+ <aside class="sidebar">
+               <h3>Nuestros Cursos y Talleres</h3> 
+
+               <ul class="cursos no-padding">
+                <li class="widget-curso">
+                    <h4 class="no-margin">Tecnicas de Extraccion de Cafe </h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Leer Entrada</a>
+                </li>
+
+
+                <li class="widget-curso ">
+                    <h4 class="no-margin">4 Recetas de Cafe para Principiantes </h4>
+                    <p class="widget-curso__label">Precio:
+                        <span class="widget-curso__info">Gratis</span>
+                    </p>
+                    <p class="widget-curso__label">Cupo:
+                        <span class="widget-curso__info">20</span>
+                    </p>
+                    <a href="entrada.html" class="boton boton--secundario">Leer Entrada</a>
+                </li>
+
+                
+                
+              
+             
+               </ul>
+
+            </aside>
+    </div>
+
+    
+        <footer class="footer">
+
+            <div class="contenedor">
+                <div class="barra">
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__nombre no-margin centrar-texto">Blog <span class="logo__bold">De Café</span></h1>
+                    </a>
+    
+                    <nav class="navegacion">
+                        <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                        <a href="Cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                    </nav>
+    
+                </div>
+            </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
